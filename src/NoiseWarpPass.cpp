@@ -31,6 +31,8 @@
  */
 #include "NoiseWarpPass.h"
 
+#include "ofUtils.h"
+
 namespace itg
 {
     NoiseWarpPass::NoiseWarpPass(const ofVec2f& aspect, bool arb, float frequency, float amplitude, float speed) :

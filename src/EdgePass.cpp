@@ -31,6 +31,10 @@
  */
 #include "EdgePass.h"
 
+#include <sstream>
+
+using namespace std;
+
 namespace itg
 {
     EdgePass::EdgePass(const ofVec2f& aspect, bool arb) :

@@ -32,10 +32,14 @@
 #pragma once
 
 #include "RenderPass.h"
+#include "ofVec2f.h"
+#include "ofPoint.h"
 #include "ofShader.h"
 
 namespace itg
 {
+    using namespace std;
+
     /*
      * @see http://machinesdontcare.wordpress.com/2008/10/29/subsurface-scatter-shader/
      */

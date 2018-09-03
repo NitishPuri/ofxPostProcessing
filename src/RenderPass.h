@@ -44,6 +44,8 @@
 
 namespace itg
 {
+	using namespace std;
+
     class RenderPass
 #ifdef _ITG_TWEAKABLE
         : public Tweakable

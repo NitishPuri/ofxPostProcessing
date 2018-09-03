@@ -31,6 +31,9 @@
  */
 #include "LUTPass.h"
 
+#include "ofUtils.h"
+#include "ofLog.h"
+
 namespace itg
 {
 
@@ -95,7 +98,7 @@ namespace itg
                 }
             }
 
-			if (lut.size() != (LUT_3D_SIZE * LUT_3D_SIZE * LUT_3D_SIZE)) ofLogError() << "LUT size is incorrect.";
+            if (lut.size() != (LUT_3D_SIZE * LUT_3D_SIZE * LUT_3D_SIZE)) ofLogError() << "LUT size is incorrect.";
         }
 
         // gen texture
